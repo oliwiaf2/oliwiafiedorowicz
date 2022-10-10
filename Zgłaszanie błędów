@@ -1,0 +1,19 @@
+Po wywołaniu kombinacji klawiszy CTRL+O lub CTRL +L otwiera się okienko w programie pozwalające wpisać użytkownikowi adres strony,który zostanie otworzony w tle programu
+
+Lista kroków do reprodukcji:
+
+Otwieramy program MRBuggy7
+
+Logujemy się na kontro administratora
+
+Klikamy kombinacje klawiszy(CTRL+O oraz CTRL+L)
+
+Wpisujemy w otwartym oienku adres htttps/google.com i kilkamy w przycisk ok
+
+Rzeczywisty rezultat:
+
+Aplikacja otwiera wpisaną przez użytkownika stornę internetową w bieżącym widoku na którym użytkownik się znajduję
+
+Oczekiwane zachowanie:
+
+Program blokuje możliwość Otwieranie stron internetowych folderów itp.w aplikacji

@@ -1,0 +1,31 @@
+Przycisk w zakładce Units nie jest responsywny na powiekszonym ekranie aplikacji
+
+Attach
+
+Add a child issue
+
+Link issue
+
+
+Description
+
+Po przejściu do zakładki Units oraz powiększeniu obszaru aplikacji za pomocą kombinacji CTRL+ przycisk Clear wychodzi poza obszar kontenera(boxa)
+
+Lista kroków do reprodukcji:
+Otworzenie aplikacji i zalogowanie się na konto administratora
+
+2.Przechodzimy do zakładki Units
+
+3.Klikamy kilka razy kombinacje klawiszy CTRL+”+” lub CTRL + skrol myszki w góre
+
+Rzeczywisty rezultat:
+Przycisk czyszczący pole wyszukiwania “Clear” wychodzi poza kontener
+
+Oczekiwane zachowanie:
+Przycisk Clear powinen zachowywać responsywwność na większym powiększeniu okna przeglądarki i dopasowywać sie do szerokości kontenera na jakim się znajduje.
+
+Załączniki:
+
+Środowisko:
+
+Windows 10 Home 64 Bity

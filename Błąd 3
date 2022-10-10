@@ -1,0 +1,30 @@
+Po kliknieciu w ikonkę"X" lista wyników Providers nie jest odświeżana
+
+Attach
+
+Add a child issue
+
+Link issue
+
+
+Description
+
+W zakładce Providers po kliknięciu w ikonkę “X” przy wpisanej frazie wyszukiwania nie jest odświeżana lista wyników prezentowanych w tabelce.
+
+Lista kroków do reprodukcji:
+
+Przechodzimy do zakładki”Providers”
+
+Dodajemy jeden dowolny provider(nazwa dowolna,cena dowolna)
+
+W polu wyszukiwanie wpisujemy frazę nie pokrywającą się z providerem ,który w kroku wcześniejszym stworzyliśmy
+
+Klikamy w ikonkę “X” w inpucie wyszukiwania
+
+Rzeczywisty rezultat:
+
+Mimo ,ze fraza po której odbywać się ma filtrowanie została usunięta to w tabelce nie ma przedstawionych wszystkich rezultatów
+
+Oczekiwane zachowanie:
+
+Po usunięciu frazy z pola wyszukiwania powinny być prezentowane wszystkie wyniki dostępne w tabelce providers

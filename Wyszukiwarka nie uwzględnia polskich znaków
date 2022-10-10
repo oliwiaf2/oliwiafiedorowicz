@@ -1,0 +1,26 @@
+Wyszukiwarka nie uwzględnia polskich znaków
+
+Attach
+
+Add a child issue
+
+Link issue
+
+
+Description
+
+W zakładce Providers wyszukiwarka nie uwzględnia polskich znaków.W rezultacie Providersy ,które uwzględniają polskie znaki takie jak ć,ż nie będą przedstawione w tabelce.
+
+Lista kroków do reprodukcji:
+
+Przechodzimy do zakładki Providers i tworzymy nowy Provider zawierający Pole name polski znak np.Boćian
+
+W wyszukiwarke wpisujemy słowo Boćian
+
+Rzeczywisty rezultat:
+
+W tablce wpisany wczesniej wyraz się nie pokazuje
+
+Oczekiwany rezultat
+
+Powinnien wyświetlić się wynik z polskimi znakami

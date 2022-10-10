@@ -1,0 +1,23 @@
+Description
+
+Wyszukiwarka z zakładki Providers nie uwzględnia podanych przez użytkownika(szukającego znaków spacji)
+
+To powoduje ,że dodane providery nie posiadającef znaków spacji są uwzględniane w wynikach wyszukiwania dla ,których fraza zawiera spację.
+
+Lista kroków do reprodukcji:
+
+Przechodzimy do zakładki Providers
+
+Tworzymy nowy provider z nazwa “TEST” i z ceną 123
+
+Tworzymy kolejny nowy provider z nazwą “TEST: i z ceną 120
+
+W polu wyszukiwania wpidujemy frazę “TEST”
+
+Rzeczywisty rezultat:
+
+Zostały przedstawione oba rezultaty (ze znakiem spacji i bez znaku spacji)
+
+Oczekiwane zachowanie:
+
+Powinny zostać przeflitrowane tylko takie providery ,które posiadają znak spacji
